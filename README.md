@@ -1,56 +1,71 @@
-About me ◽️ 👨🏻‍💻 Front-End Engineer (7+ years) ◽️ 🎬 React.js Instructor ◽️ 🎯 Mentor for Developers
+
+# Personal Website
+Laravel Personal Website 
 
 
-# AI Chatbot App
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Contact](#contact)
 
-This repository contains the source code for the "React.js AI Chatbot App with ChatGPT, Gemini AI and DeepSeek" course.
 
-## "React.js AI Chatbot App with ChatGPT, Gemini AI and DeepSeek" course
 
-Build a Real-time AI Chatbot with React.js, integrating ChatGPT, Gemini AI and DeepSeek for dynamic conversations.
+## General Information
+Personal Website using Laravel 
 
-In this course, you'll begin by building Chatbot UI, integrating OpenAI (ChatGPT), Google AI (Gemini), DeepSeek (R1 and V3) and building your first AI-powered chatbot in React. You'll learn how to implement real-time chat streaming, add markdown support, manage loading states, and create a seamless user experience, all while working with React's component-based architecture. By the end of the course, you'll have the skills to create dynamic, interactive AI chatbots with React.
 
-# How to use code examples from Github
+## Technologies Used
+- PHP 8.0.2
+- Laravel 9.19
+- Laravel/ui 4.2
+- Composer 2.4.3
 
-## Download the code source
 
-### a) Download code source for final application
+## Features
+- Admin panel
+- User role : admin | user
+- Personal Info
+- Skills
+- About Me
+- Blogs Managment
+- [ ] Application Tracker
 
-1. Open repository main [page](https://github.com/dvasyliev/react-ai-chatbot).
+## Screenshots
+![laravel Personal website Dashboard screenshot](./public/images/ScreenShots/Screenshot%202023-01-26%20at%2016-30-43%20Personal%20Website.png)
 
-2. Click on the green "Code" button to open a list and then click on the "Download ZIP" button to download a source code.
+![personal website skill screenshot](./public/images/ScreenShots/Screenshot%202023-01-26%20at%2016-31-35%20Personal%20Website.png)
 
-<img width="472" alt="Screenshot 2024-06-25 at 17 34 44" src="https://github.com/dvasyliev/react-crash-course/assets/24624324/5e67c693-39fd-4262-b0ff-7aa81f439642">
+![blog page screenshot](./public/images/ScreenShots/Screenshot%202023-01-26%20at%2016-33-03%20Personal%20Website.png)
 
-### b) Download code sources for specific lesson
+![home page screenshot](./public/images/ScreenShots/Screenshot%202023-01-26%20at%2016-46-02%20Personal%20Website.png)
 
-1. Open [commits](https://github.com/dvasyliev/react-ai-chatbot/commits/main/) page.
+![skill page screenshot](./public/images/ScreenShots/Screenshot%202023-01-26%20at%2016-46-22%20Personal%20Website.png)
 
-2. Click on the "code" icon near the lesson you are interested.
+![blog page screenshot](./public/images/ScreenShots/Screenshot%202023-01-26%20at%2016-47-01%20Personal%20Website.png)
 
-<img width="1319" alt="Screenshot 2024-06-25 at 17 48 06" src="https://github.com/dvasyliev/react-crash-course/assets/24624324/53caf0fe-7d61-4c22-b10f-33b8f1cb5512">
+![login page screenshot](./public/images/ScreenShots/Screenshot%202023-01-26%20at%2016-45-22%20Personal%20Website.png)
 
-3. You will be redirected to the specific source code page for this lesson.
 
-4. Click on the green "Code" button to open a list and then click on the "Download ZIP" button to download a source code.
+## Setup
 
-<img width="472" alt="Screenshot 2024-06-25 at 17 34 44" src="https://github.com/dvasyliev/react-crash-course/assets/24624324/5e67c693-39fd-4262-b0ff-7aa81f439642">
+```
+git clone https://github.com/MobinaJafarian/Personal_Website.git 
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+```
+Then
 
-## Open project in the VS code (code editor)
-
-Open the archive on your computer, open VS code (code editor) and cick "File" -> "Open Folder" -> Choose project folder => "Open".
-
-<img width="470" alt="Screenshot 2024-06-25 at 17 40 31" src="https://github.com/dvasyliev/react-crash-course/assets/24624324/ec7661e5-d8e7-409f-a935-5a55335553e9">
-
-## Start application
-
-### 1. Install dependencies
-
-Run the `npm install` command to install all the libraries needed to run the application.
-
-### 2. Run application
-
-Run the `npm run dev` command in terminal to start the application.
-Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
-The page will reload when you make changes.
+```
+php artisan serve
+```
+```
+npm install
+npm run dev
+```
+## Contact
+Created by [@MobinaJafarian](https://github.com/MobinaJafarian) - feel free to contact me!
